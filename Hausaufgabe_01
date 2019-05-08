@@ -1,7 +1,7 @@
+#Mood_checker
+
 mood =  input("Enter your mood: ")
 print("You entered " + mood)
-
-
 if mood == "happy":
     print("It is great to see you happy!")
 elif mood == "nervous":
