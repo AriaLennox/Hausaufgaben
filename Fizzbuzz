@@ -1,0 +1,15 @@
+number = int(input("Please enter a number between 1 and 100: "))
+
+counts = 0
+while counts < number:
+    counts += 1
+    if counts % 3 == 0 and counts % 5 == 0:
+        print("fizzbuzz")
+    elif counts % 3 == 0:
+        print("fizz")
+    elif counts % 5 == 0:
+        print("buzz")
+    else:
+        print(counts)
+
+print("finished")
