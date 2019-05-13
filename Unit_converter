@@ -1,0 +1,15 @@
+print("Hi! Nice to see you - I am here to help you converting kilometers to miles.")
+
+while True:
+    entry = input("Do you want to enter kilometers? (y,n)")
+    if entry.lower() == "y":
+        miles = int(input("Please enter kilometers: "))*0.621371
+        print("miles: ", miles)
+    elif entry.lower() == "n":
+        print("Okay, goodbye.")
+        break
+    else:
+        print("Invalid input, restart")
+        break
+
+print("finished")
