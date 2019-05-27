@@ -64,6 +64,3 @@ while True:
         top_scores()
     else:
         break
-
-
-#test
